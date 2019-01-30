@@ -2,7 +2,7 @@
 
 Please include a brief description of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
 
-Fixes # (issue)
+Fixes # [Add issue number here. If you do not solve the issue entirely, please change the message e.g. "First steps for issues #IssueNumber]
 
 ## Type of change
 
@@ -21,3 +21,9 @@ Fixes # (issue)
 - [ ] I have made corresponding changes to the documentation
 - [ ] My changes generate no new warnings
 
+**Demo Link** :
+<!-- Provide a demo link -->
+
+**Screenshots of the issue**
+
+<!--Where-ever possible attach a screenshot of the issue.-->
