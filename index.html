@@ -170,10 +170,7 @@
      
      </div>
     <script>
-      var start;
-      function myFunction(){
-        start = setTimeout(showpage,2000);
-      }
+      window.onload = function(){ showpage() } 
       function showpage(){
         document.getElementById('loader').style.display="none";
         document.getElementById('preloader').style.display="none";
