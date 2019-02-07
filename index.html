@@ -20,10 +20,17 @@
   <link href="static/css/bootstrap.min.css" rel="stylesheet">
   <link href="static/css/style.css" rel="stylesheet">
   <script src="static/js/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative; 
+  }
+  </style>
 
 </head>
 
-<body onload="myFunction()">
+<body onload="myFunction()" data-spy="scroll" data-target=".nav" data-offset="50">
   <div class="hameid-loader-overlay"></div>
 
     <!-- Navigation -->
