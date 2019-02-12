@@ -195,9 +195,9 @@ body {
 	background: linear-gradient(to bottom right, #28e, #e14);
 	opacity: 0.75;
 	z-index: -1;
-}
+  }
+  .hero h1 {
 
-.hero h1 {
 	font-size: 4em;
 	margin-bottom: 1rem;
 }
@@ -294,12 +294,10 @@ a:hover {
 	background: linear-gradient(to bottom right, #ee8822, #11eebb);
 	opacity: 0.9;
 	z-index: -1;
-}
-
-
-.col-4,
-.col-6,
-.col-12 {
+  }
+  
+  
+  .col-4, .col-6, .col-12 {
 	width: 100%;
 }
 
