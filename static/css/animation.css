@@ -60,9 +60,12 @@
 	
 }
 
-#x {
+body {
 	overflow-x: hidden;
 	position:relative;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
 }
 
 #background-wrap {
@@ -79,7 +82,7 @@
 
 @-webkit-keyframes animateBubble {
     0% {
-        margin-top: 1000px;
+        margin-top: 0px;
     }
     100% {
         margin-top: -100%;
@@ -88,7 +91,7 @@
 
 @-moz-keyframes animateBubble {
     0% {
-        margin-top: 1000px;
+        margin-top: 0px;
     }
     100% {
         margin-top: -100%;
@@ -97,7 +100,7 @@
 
 @keyframes animateBubble {
     0% {
-        margin-top: 1000px;
+        margin-top: 0px;
     }
     100% {
         margin-top: -100%;
